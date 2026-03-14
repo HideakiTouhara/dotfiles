@@ -11,5 +11,6 @@
 	dfc = diff --cached
 	cp = cherry-pick
 	ps = push
+	sw = switch
 	rs = restore
 	rss = restore --staged
