@@ -12,5 +12,9 @@
 	cp = cherry-pick
 	ps = push
 	sw = switch
+	b = branch
+	lg = log --oneline --graph
+	stu = stash -u
+	stp = stash pop
 	rs = restore
 	rss = restore --staged
