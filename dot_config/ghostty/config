@@ -1,0 +1,9 @@
+auto-update-channel = tip
+confirm-close-surface = false
+background-opacity = 0.85
+window-width = 160
+window-height = 100
+
+keybind = alt+super+left=previous_tab
+keybind = alt+super+right=next_tab
+keybind = shift+enter=text:\x1b\r
