@@ -12,6 +12,7 @@
 	cp = cherry-pick
 	ps = push
 	sw = switch
+	swc = switch -c
 	b = branch
 	lg = log --oneline --graph
 	stu = stash -u
