@@ -8,3 +8,5 @@ window-height = 100
 keybind = alt+super+left=previous_tab
 keybind = alt+super+right=next_tab
 keybind = shift+enter=text:\x1b\r
+
+command = sh -c 'tmux attach || tmux new-session \; split-window -h \; select-pane -L'
