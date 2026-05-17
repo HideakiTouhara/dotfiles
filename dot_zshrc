@@ -104,6 +104,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias g='git'
+alias c='claude'
+alias cc='claude --continue'
 
 ## zsh
 alias sz='source ~/.zshrc'
