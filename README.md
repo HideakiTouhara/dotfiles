@@ -1,31 +1,32 @@
 # dotfiles
 
-[chezmoi](https://www.chezmoi.io/) で管理している dotfiles。
+Dotfiles managed with [chezmoi](https://www.chezmoi.io/).
 
-## セットアップ
+## Setup
 
 ```sh
-# chezmoi 未導入なら
+# If chezmoi is not installed yet
 brew install chezmoi
 
-# このリポジトリを展開(初回)
+# Apply this repository (first time)
 chezmoi init --apply HideakiTouhara
 ```
 
-### 手動セットアップが必要なもの
+### Manual setup
 
-設定ファイルではなくコマンドで入れるもの(別マシンでも1回叩けば再現できる)。
+Things installed via commands rather than tracked config files
+(re-runnable on any machine, so they are not stored in the dotfiles).
 
-#### herdr + Claude Code 連携
+#### herdr + Claude Code integration
 
 ```sh
-# 本体
+# herdr itself
 brew install herdr
 
-# Claude Code のエージェント状態を herdr サイドバーに表示するフックを導入
-# (~/.claude/hooks/herdr-agent-state.sh を生成し、~/.claude/settings.json に登録)
+# Install the hook that shows Claude Code agent state in the herdr sidebar
+# (generates ~/.claude/hooks/herdr-agent-state.sh and registers it in ~/.claude/settings.json)
 herdr integration install claude
 
-# 導入確認
+# Verify
 herdr integration status
 ```
