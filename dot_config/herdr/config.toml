@@ -10,3 +10,6 @@ focus_pane_right = "ctrl+l"
 
 # tmux-style splits: | = left/right split, - = up/down split (prefix+minus is already default)
 split_vertical = "prefix+|"
+
+# workspace switching by number (prefix+1..9 is tab switching by default)
+switch_workspace = "prefix+shift+1..9"
