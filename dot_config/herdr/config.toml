@@ -2,11 +2,13 @@
 # prefix key to enter navigate/prefix mode (default: ctrl+b)
 prefix = "ctrl+a"
 
-# tmux vim-navigator style: direct (no-prefix) Ctrl+h/j/k/l for pane focus
+# tmux vim-navigator style: direct (no-prefix) Ctrl+h/l for left/right pane focus
 focus_pane_left = "ctrl+h"
-focus_pane_down = "ctrl+j"
-focus_pane_up = "ctrl+k"
 focus_pane_right = "ctrl+l"
+
+# direct Ctrl+j/k cycles workspaces (vertical pane focus is unused; falls back to prefix+j/k)
+next_workspace = "ctrl+j"
+previous_workspace = "ctrl+k"
 
 # tmux-style splits: | = left/right split, - = up/down split (prefix+minus is already default)
 split_vertical = "prefix+|"
