@@ -11,5 +11,10 @@ focus_pane_right = "ctrl+l"
 # tmux-style splits: | = left/right split, - = up/down split (prefix+minus is already default)
 split_vertical = "prefix+|"
 
-# workspace switching by number (prefix+1..9 is tab switching by default)
-switch_workspace = "prefix+shift+1..9"
+# workspace switching by number (workspaces get the prime numbers; tabs move to alt)
+switch_workspace = "prefix+1..9"
+switch_tab = "prefix+alt+1..9"
+
+[experimental]
+# make prefix-mode keys (e.g. prefix+1..9) work while Japanese IME is active
+switch_ascii_input_source_in_prefix = true
