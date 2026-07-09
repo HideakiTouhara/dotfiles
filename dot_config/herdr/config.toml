@@ -16,3 +16,7 @@ split_vertical = "prefix+|"
 # workspace switching by number (workspaces get the prime numbers; tabs move to alt)
 switch_workspace = "prefix+1..9"
 switch_tab = "prefix+alt+1..9"
+
+# notify via macOS Notification Center when background agents finish / need input
+[ui.toast]
+delivery = "system"
