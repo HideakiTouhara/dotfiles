@@ -1,3 +1,4 @@
+onboarding = false
 [keys]
 # prefix key to enter navigate/prefix mode (default: ctrl+b)
 prefix = "ctrl+a"
